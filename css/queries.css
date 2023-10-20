@@ -1,0 +1,179 @@
+/* Mai putin de 1344 pixeli */
+
+@media (max-width: 84em) {
+  .heading-primary {
+    font-size: 4rem;
+  }
+}
+
+/* Mai putin de 1021 pixeli */
+/* 63em--> 1021px / 16px(aproximativ 63,era 63.8)*/
+@media (max-width: 63em) {
+  .main-nav-list {
+    gap: 2rem;
+  }
+
+  .grid {
+    column-gap: 4rem;
+  }
+
+  .hero {
+    gap: 4rem;
+  }
+
+  .galerie {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.4rem;
+    padding: 1.5rem;
+  }
+  .galerie-item img {
+    width: 60%;
+  }
+
+  .footer {
+    padding: 7rem;
+  }
+
+  .footer-logo {
+    margin-bottom: 1rem;
+  }
+
+  .social-links {
+    gap: 1.2rem;
+  }
+
+  .list {
+    gap: 1.2rem;
+  }
+
+  .echipament-atribute {
+    gap: 2.6rem;
+  }
+}
+
+/* Mai putin de 888 pixeli */
+@media (max-width: 56em) {
+  .main-nav-list {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding-top: 10rem;
+    gap: 1.8rem;
+  }
+  .logo {
+    height: 6rem;
+  }
+
+  .logos img {
+    height: 6rem;
+  }
+
+  .heading-secondary {
+    font-size: 3.2rem;
+    line-height: 1.2;
+    margin-bottom: 5rem;
+  }
+
+  .heading-tertiary {
+    font-size: 2.4rem;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+  }
+
+  .echipament-content {
+    padding: 2rem 3rem 3rem 3rem;
+  }
+
+  .echipament-titlu {
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+  }
+
+  .section-review-uri {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .review-uri-container {
+    padding: 3rem;
+  }
+
+  .galerie {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10rem;
+  }
+
+  .galerie-item img {
+    width: 100%;
+  }
+
+  .galerie-item img:first-child {
+    height: 100%;
+  }
+}
+
+/* Mai putin de 686 pixeli */
+@media (max-width: 43em) {
+  .heading-primary {
+    font-size: 3.6rem;
+  }
+
+  .section-hero {
+    padding-top: 9rem;
+  }
+
+  .hero {
+    max-width: 430rem;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 3rem;
+    align-items: center;
+  }
+
+  .grid--3-cols {
+    grid-template-columns: repeat(1, 1fr);
+    max-width: 45rem;
+  }
+
+  .grid--3-cols .echipamente {
+    grid-row: 1;
+  }
+
+  .logos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .grid--2-cols {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .pas-img-box:nth-child(2) {
+    grid-row: 2;
+  }
+
+  .pas-img-box:nth-child(3) {
+    grid-row: 4;
+  }
+
+  .pas-img-box:nth-child(7) {
+    grid-row: 8;
+  }
+
+  .galerie {
+    column-gap: 2rem;
+  }
+
+  .review-uri {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .features {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .grid-footer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer {
+    padding: 7rem 3rem;
+  }
+}
